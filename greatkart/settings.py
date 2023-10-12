@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-not=v#ro0wwra3gde)msw#7rs=fiduu=#u2mootk(3ni1u())@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", default=True, cast=bool)
 
-ALLOWED_HOSTS = ['django-greatkart-env.eba-p8ehpudp.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
